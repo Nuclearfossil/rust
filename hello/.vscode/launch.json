@@ -15,5 +15,6 @@
             "environment": [],
             "externalConsole": true
         }
-    ]
+    ],
+    "debug.allowBreakpointsEverywhere": true
 }
