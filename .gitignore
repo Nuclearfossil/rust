@@ -1,7 +1,5 @@
-hello/Cargo.lock
-hello/Cargo.lock
-hello/Cargo.lock
-hello/Cargo.lock
+target
+Cargo.lock
 
-hello/target
 *.lock
+*.rs.bk
