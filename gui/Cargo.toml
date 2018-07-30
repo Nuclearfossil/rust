@@ -1,6 +1,0 @@
-[package]
-name = "gui"
-version = "0.1.0"
-authors = ["Ash Matheson <nuclearfossil@hotmail.com>"]
-
-[dependencies]
