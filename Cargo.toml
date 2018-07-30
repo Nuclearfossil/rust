@@ -2,3 +2,15 @@
 name = "rust"
 version = "0.1.0"
 authors = ["Ash Matheson <nuclearfossil@hotmail.com>"]
+
+[[bin]]
+name = "gui"
+path = "src/examples/gui.rs"
+
+[[bin]]
+name = "hello_world"
+path = "src/examples/hello_world.rs"
+
+[[bin]]
+name = "hello-world"
+path = "src/examples/hello-world.rs"
