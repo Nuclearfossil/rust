@@ -27,4 +27,6 @@
 
   [3D model loaders](http://arewegameyet.com/categories/3dformatloader.html)
   
-*/
+### Cargo related links
+
+  [Configuring targets](https://doc.rust-lang.org/cargo/reference/manifest.html#configuring-a-target)
