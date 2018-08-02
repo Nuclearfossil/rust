@@ -47,6 +47,7 @@ fn main()
     primitives();
     literals();
     bitwise_ops();
+    arrays();
 }
 
 /// Our first function. We see a data type used here (i32 for 32 bit integer).
@@ -150,4 +151,29 @@ fn bitwise_ops()
     println!("{number:>width$}", number=1, width=6);
     println!("0x80      is 0b{:016b}", 0x80u32);
     println!("0x80 >> 2 is 0b{:016b}", 0x80u32 >> 2);
+}
+
+fn arrays()
+{
+    // declare a fixed-size array of floats
+    let vector2 : [f32; 2] = [0.0, 0.0];
+    let vector3 : [f32; 3] = [0.0, 0.0, 0.0];
+    let vector4 : [f32; 4] = [0.0, 1.0, 2.0, 3.0];  // initialize all elements explicitly
+    let array4: [f32; 4] = [0.0; 4];                // initialize 0.0 to the first 4 elements
+
+    println!("The size of vector2 is {}", vector2.len());
+    println!("The size of vector3 is {}", vector3.len());
+    println!("The size of vector4 is {}", vector4.len());
+
+    // in the next case, the & represents us 'borrowing' a sub-section of an array
+    // into another array
+    let slice = &vector4[1 .. 3];
+
+    println!("The length of slice is {}", slice.len());
+    
+    for element in slice
+    {
+        println!("The element is {}", element);
+    }    
+
 }
