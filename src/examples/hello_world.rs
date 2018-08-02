@@ -13,7 +13,8 @@
 
 //
 // Reference Material:
-//   - https://doc.rust-lang.org/stable/rust-by-example/
+//   - https://doc.rust-lang.org/stable/rust-by-example
+//   = https://doc.rust-lang.org/book/second-edition/foreword.html
 //
 
 // The main entry point - we've seen this a hundred times before
@@ -170,7 +171,7 @@ fn arrays()
     let slice = &vector4[1 .. 3];
 
     println!("The length of slice is {}", slice.len());
-    
+
     for element in slice
     {
         println!("The element is {}", element);
