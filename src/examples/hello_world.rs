@@ -74,32 +74,32 @@ fn calc_negation(value : i32) -> i32
 /// example without arguments or return types
 fn primitives()
 {
-    let isOn: bool = false;
+    let _is_on: bool = false;
 
-    let int8bitA: i8 = 0;       // variable type declaration syntax
-    let int8bitB = 0i8;         // variable type inferred by suffix - only works on numerical types
-    let int16bitA: i16 = 0;
-    let int16bitB = 0i16;
-    let int32bitA: i32 = 0;
-    let int32bitB = 0i32;
-    let int64bitA: i64 = 0;
-    let int64bitB = 0i64;
+    let _int8bit_a: i8 = 0;       // variable type declaration syntax
+    let _int8bit_b = 0i8;         // variable type inferred by suffix - only works on numerical types
+    let _int16bit_a: i16 = 0;
+    let _int16bit_b = 0i16;
+    let _int32bit_a: i32 = 0;
+    let _int32bit_b = 0i32;
+    let _int64bit_a: i64 = 0;
+    let _int64bit_b = 0i64;
 
-    let uint8bit: u8 = 0;
-    let uint16bit: u16 = 0;
-    let uint32bit: u32 = 0;
-    let uint64bit: u64 = 0;
+    let _uint8bit: u8 = 0;
+    let _uint16bit: u16 = 0;
+    let _uint32bit: u32 = 0;
+    let _uint64bit: u64 = 0;
 
-    let float32: f32 = 0.0;
-    let float64: f64 = 0.0;
+    let _float32: f32 = 0.0;
+    let _float64: f64 = 0.0;
 
-    let letter: char = ' ';                     // character declaration - 1 char == 4 bytes
-    let anotherletter = 'a';                    // infering a character type
+    let _letter: char = ' ';                     // character declaration - 1 char == 4 bytes
+    let _anotherletter = 'a';                    // infering a character type
 
     // Strings are a bit of a different beast. They're actually not strings, but 'string slice'
     // Think 'String Literal'
-    let anotherstring  = "Here's a string";     // infering a string type
-    let firststring: &str = "First string";     // string declaration - note the `&`
+    let _anotherstring  = "Here's a string";     // infering a string type
+    let _firststring: &str = "First string";     // string declaration - note the `&`
 }
 
 fn literals()
@@ -160,7 +160,7 @@ fn arrays()
     let vector2 : [f32; 2] = [0.0, 0.0];
     let vector3 : [f32; 3] = [0.0, 0.0, 0.0];
     let vector4 : [f32; 4] = [0.0, 1.0, 2.0, 3.0];  // initialize all elements explicitly
-    let array4: [f32; 4] = [0.0; 4];                // initialize 0.0 to the first 4 elements
+    let _array4: [f32; 4] = [0.0; 4];               // initialize 0.0 to the first 4 elements
 
     println!("The size of vector2 is {}", vector2.len());
     println!("The size of vector3 is {}", vector3.len());
@@ -175,6 +175,5 @@ fn arrays()
     for element in slice
     {
         println!("The element is {}", element);
-    }    
-
+    }
 }
