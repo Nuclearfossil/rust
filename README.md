@@ -8,6 +8,7 @@
 
 ### GUI
 
+  [Native Windows Gui](https://github.com/gabdube/native-windows-gui)
   [Simple Rust Gui](https://www.vandenoever.info/blog/2017/02/17/a-simple-rust-gui-with-qml.html)
   [ConRod](https://github.com/PistonDevelopers/conrod)
   [QT](https://github.com/KDE/rust-qt-binding-generator)
@@ -18,9 +19,10 @@
 
 ### OpenGL
 
+  [Rust + OpenGL tutorial](https://github.com/Nercury/rust-and-opengl-lessons)
   [3D Rendering](http://arewegameyet.com/categories/3drendering.html)
   [OpenGL from Scratch](http://nercury.github.io/rust/opengl/tutorial/2018/02/08/opengl-in-rust-from-scratch-00-setup.html)
-  [Rust + OpenGL](https://github.com/bwasty/learn-opengl-rs)
+  [Another Rust + OpenGL tutorial](https://github.com/bwasty/learn-opengl-rs)
   [Game Libs](http://arewegameyet.com/)
 
 ### Misc
