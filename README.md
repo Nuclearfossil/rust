@@ -4,7 +4,7 @@
 
 ### General
 
-  [Rust Forword](https://doc.rust-lang.org/book/second-edition/foreword.html)
+  [Rust Foreword](https://doc.rust-lang.org/book/second-edition/foreword.html)
 
 ### GUI
 
